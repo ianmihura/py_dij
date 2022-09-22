@@ -71,6 +71,4 @@ if __name__ == "__main__":
     graph = Graph(json_graph)
     graph()
     print(graph.__repr__())
-    # print(graph.order)
-    # print(graph.weight)
-    # print(graph.)
+    print(graph.__str__())
